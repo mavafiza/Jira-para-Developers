@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Righteous&display=swap');
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: #f1f1f1;
+}
+
+.countdown-container {
+    background-color: #fff;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0px 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px #fff;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+span {
+    padding: 10px;
+}
+
+#countdown {
+    display: flex;
+    flex-direction: row;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#countdown>div {
+    background-color: #545398;
+    color: whitesmoke;
+    font-size: 50px;
+    width: 200px;
+    height: 100px;
+    /* margin: 0 5px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.smalltext {
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+
+
+
+.team-cards {
+    background-color: #fff;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px #fff;
+    text-align: center;
+
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.info article {
+    max-width: 200px;
+    margin: 0 auto;
+
+}
+
+.info img {
+    height: 225px;
+    width: fit-content;
+    border-radius: 5px;
+}
+
+.grayscale-image {
+    filter: grayscale(100%);
+}
