@@ -5,6 +5,10 @@ body {
     background-color: #f1f1f1;
 }
 
+main {
+    margin-top: 10%;
+}
+
 .countdown-container {
     background-color: #fff;
     max-width: 900px;
@@ -38,7 +42,6 @@ span {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
     flex-wrap: wrap;
     gap: 20px;
 }
