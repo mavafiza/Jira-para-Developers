@@ -1,22 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Righteous&display=swap');
 
+
 body {
     font-family: 'Oswald', sans-serif;
     background-color: #f1f1f1;
+    /* background-image: url(./images/8ce5c5118185fd743d6d6f8b6a867711.jpg); */
+    
 }
 
 main {
-    margin-top: 8%;
+    margin-top: 1%;
 }
+
 
 .countdown-container {
     background-color: #fff;
     max-width: 900px;
     margin: 0 auto;
     padding: 0px 30px;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     box-shadow: 0 0 20px #fff;
     text-align: center;
+}
+
+.logo-meetUp {
+    width: 9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
 
 h1 {
@@ -50,8 +62,8 @@ span {
     background-color: #545398;
     color: whitesmoke;
     font-size: 50px;
-    width: 200px;
-    height: 100px;
+    width: 150px;
+    height: 90px;
     /* margin: 0 5px; */
     display: flex;
     justify-content: center;
@@ -69,35 +81,124 @@ span {
 
 
 .team-cards {
+    display: flex;
     background-color: #fff;
     max-width: 900px;
     margin: 0 auto;
     padding: 10px 30px;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     box-shadow: 0 0 20px #fff;
     text-align: center;
+    flex-direction: row;
+    justify-content: space-around;
 
+}
+
+.section-column {
+    display: flex;
+    background-color: #fff;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px 30px;
+    /* border-radius: 5px; */
+    box-shadow: 0 0 20px #fff;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-column ul {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: center;
+    gap: 10px 15px;
+}
+
+.section-column ul li {
+    /* width: fit-content; */
+    height: 15px;
+    border: 2px solid #545398;
+    border-radius: 4px;
+    padding: 0 2% 3% 2%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.section-column p {
+    width: 65%;
 }
 
 .info {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-
+    gap: 50px;
 }
 
 .info article {
+    flex-direction: column;
+    display: flex;
     max-width: 200px;
     margin: 0 auto;
-
+    align-content: center;
+    align-items: center;
 }
 
 .info img {
-    height: 225px;
+    height: 250px;
     width: fit-content;
     border-radius: 5px;
 }
 
 .grayscale-image {
     filter: grayscale(100%);
+}
+
+
+.tutorial {
+    background-color: #fff;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0px 30px;
+    /* border-radius: 5px; */
+    box-shadow: 0 0 20px #fff;
+    text-align: center;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 30px;
+    /* background: #F8F8F8; */
+}
+
+.bottom-footer {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+body {
+    background: linear-gradient(120deg, #84fab0, #8fd3f4, #c0a3f4, #f8a5c2);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+}
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }

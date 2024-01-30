@@ -1,5 +1,5 @@
 // Establece la fecha límite
-let countDownDate = new Date("Jan 19, 2024 17:30:00").getTime();
+let countDownDate = new Date("feb 07, 2024 17:30:00").getTime();
 
 // Actualiza la cuenta regresiva cada segundo
 let x = setInterval(function () {
@@ -27,3 +27,59 @@ let x = setInterval(function () {
         document.getElementById("countdown").innerHTML = "¡Ya llegó el 15 de abril!";
     }
 }); // cierra la función setInterval y la llave de la función anónima
+
+
+
+// src="ruta_a_pdf.js"
+//     // Ruta al archivo PDF
+//     const pdfPath = './assets/roadMapToJira.pdf';
+
+//     // Variables
+//     let currentPage = 1;
+//     const pdfContainer = document.getElementById('pdf-container');
+//     const prevPageButton = document.getElementById('prev-page');
+//     const nextPageButton = document.getElementById('next-page');
+
+//     // Carga del PDF
+//     pdfjsLib.getDocument(pdfPath).promise.then(pdfDoc => {
+//         const numPages = pdfDoc.numPages;
+
+//         // Inicialización
+//         const canvas = document.getElementById('pdf-viewer');
+//         const context = canvas.getContext('2d');
+
+//         // Función para renderizar la página actual
+//         const renderPage = pageNum => {
+//             pdfDoc.getPage(pageNum).then(page => {
+//                 const viewport = page.getViewport({ scale: 1.5 });
+//                 canvas.height = viewport.height;
+//                 canvas.width = viewport.width;
+
+//                 const renderContext = {
+//                     canvasContext: context,
+//                     viewport: viewport
+//                 };
+
+//                 page.render(renderContext);
+//             });
+//         };
+
+//         // Renderizar la primera página
+//         renderPage(currentPage);
+
+//         // Evento para la página anterior
+//         prevPageButton.addEventListener('click', () => {
+//             if (currentPage > 1) {
+//                 currentPage--;
+//                 renderPage(currentPage);
+//             }
+//         });
+
+//         // Evento para la página siguiente
+//         nextPageButton.addEventListener('click', () => {
+//             if (currentPage < numPages) {
+//                 currentPage++;
+//                 renderPage(currentPage);
+//             }
+//         });
+//     });
