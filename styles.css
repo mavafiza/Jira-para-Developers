@@ -207,60 +207,71 @@ body {
     }
 }
 
-@media only screen and (max-width: 400px) {
+        @media only screen and (max-width: 400px) {
 
-    h2 {
-        font-size: 100%;
-    }
+            h2 {
+                font-size: 100%;
+            }
 
-    .countdown-container img {
-        width: 150px;
-    }
+            .countdown-container img {
+                width: 150px;
+            }
 
-    .smalltext {
-        font-size: 16px;
-        font-weight: normal;
-        padding: 0 2px 10px 2px;
-    }
+            .smalltext {
+                font-size: 16px;
+                font-weight: normal;
+                padding: 0 2px 10px 2px;
+            }
 
-    #countdown {
-        width: 100%;
-        gap: 8px;
+            #countdown {
+                width: 100%;
+                gap: 8px;
+                display: flex;
+            }
 
-    }
+            #countdown>div {
+                background-color: #545398;
+                color: whitesmoke;
+                font-size: 30px;
+                width: 50px;
+                height: auto;
+                /* margin: 0 5px; */
+                justify-content: center;
+                align-items: center;
+                border-radius: 5px;
+                display: flex;
+                flex-direction: column;
+                align-content: center;
+                flex-wrap: wrap;
+            }
 
-    #countdown>div {
-        background-color: #545398;
-        color: whitesmoke;
-        font-size: 30px;
-        width: 65px;
-        height: auto;
-        /* margin: 0 5px; */
-        justify-content: center;
-        align-items: center;
-        border-radius: 5px;
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-    }
+            .number {
+                padding: 0;
+                padding: 10px 0 0 0;
 
-    .number {
-        padding: 0;
-        padding: 10px 0 0 0;
+            }
 
-    }
+            .section-column p {
+                width: 95%;
+            }
 
-    .section-column p {
-        width: 95%;
-    }
+            .section-column ul {
+                padding: 0;
+                display: flex;
+                flex-wrap: wrap;
+                width: 98%;
+                justify-content: center;
+                gap: 10px 15px;
+            }
+            .section-column ul li {
+                width: fit-content;
+                height: 15px;
+                border: 2px solid #545398;
+                border-radius: 4px;
+                padding: 0 2% 3% 2%;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+            }
 
-    .section-column ul {
-        padding: 0;
-        display: flex;
-        flex-wrap: wrap;
-        width: 98%;
-        justify-content: center;
-        gap: 10px 15px;
-    }
-
-}
+        }
