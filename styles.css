@@ -116,7 +116,7 @@ span {
 }
 
 .section-column ul li {
-    width: fit-content;
+    width: auto;
     height: 15px;
     border: 2px solid #545398;
     border-radius: 4px;
