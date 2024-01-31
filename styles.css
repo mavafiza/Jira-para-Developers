@@ -110,9 +110,11 @@ span {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
-    width: 50%;
+    width: 55%;
     justify-content: center;
     gap: 10px 15px;
+    padding: 0;
+
 }
 
 .section-column ul li {
