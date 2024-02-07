@@ -275,5 +275,8 @@ body {
                 justify-content: center;
                 text-align: center;
             }
-
+            .iframe-mobile {
+                width: 100%;
+                height: auto;
+            }
         }
