@@ -24,7 +24,7 @@ let x = setInterval(function () {
 
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("countdown").innerHTML = "¡Ya llegó el 15 de abril!";
+        document.getElementById("countdown").innerHTML = "¡Ya llegó el 07 de Febrero!";
     }
 }); // cierra la función setInterval y la llave de la función anónima
 
